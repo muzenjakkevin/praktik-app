@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className='nav'>
       <ul className='nav-menu'>
-      <Link className="nav-links" to='/'>
+        <Link className="nav-links" to='/'>
           <li>Home</li>
         </Link>
         <Link className="nav-links" to='/news'>
