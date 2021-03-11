@@ -1,0 +1,32 @@
+body{
+  background-color: #EEEEEE;
+}
+
+p{
+    color: #6b6b6b;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    top: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-info-one{
+    width: 50vw;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.3)
+}
+
+.text-info-one{
+    position: relative;
+    bottom: 30vh;
+    right: 5vw;
+    z-index: 1;
+    width: 20vw;
+    padding: 10px 10px 3px 10px;
+    background: rgba(255,255,255,.8);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    border-radius: 3px;
+}
