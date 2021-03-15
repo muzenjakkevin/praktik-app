@@ -11,22 +11,51 @@ p{
     position: relative;
     top: 15vh;
     justify-content: center;
-    align-items: center;
+    align-self: center;
+}
+
+.info-one{
+    position: relative;
+    top: 1vh;
+    left: 25vw;
 }
 
 .image-info-one{
     width: 50vw;
-    box-shadow: 0 4px 6px 0 rgba(0,0,0,.3)
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.3);
 }
 
 .text-info-one{
     position: relative;
-    bottom: 30vh;
-    right: 5vw;
+    bottom: 25vh;
+    right: 9vw;
     z-index: 1;
-    width: 20vw;
+    width: 30vw;
     padding: 10px 10px 3px 10px;
-    background: rgba(255,255,255,.8);
+    background: rgba(255,255,255, 0.8);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    border-radius: 3px;
+    border-radius: 2px;
+}
+
+.info-two{
+    position: relative;
+    top: 80vh;
+    right: 25vw;
+}
+
+.image-info-two{
+    width: 50vw;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.3);
+}
+
+.text-info-two{
+    position: relative;
+    bottom: 55vh;
+    left: 30vw;
+    z-index: 1;
+    width: 30vw;
+    padding: 10px 10px 3px 10px;
+    background: rgba(255,255,255, 0.8);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    border-radius: 2px;
 }
