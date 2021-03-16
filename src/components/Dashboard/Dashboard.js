@@ -11,15 +11,17 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function Dashboard() {
   return (
-    <Router>
-      <Navbar/>
-        <Switch>
-          <Route path="/" exact component={HomeScreen}/>
-          <Route path="/news" component={NewsScreen}/>
-          <Route path="/about" component={AboutScreen}/>
-          <Route path="/contact" component={ContactScreen}/>
-        </Switch>
-    </Router>
+    <>
+      <Router>
+        <Navbar/>
+          <Switch>
+            <Route path="/" exact component={HomeScreen}/>
+            <Route path="/news" component={NewsScreen}/>
+            <Route path="/about" component={AboutScreen}/>
+            <Route path="/contact" component={ContactScreen}/>
+          </Switch>
+      </Router>
+    </>
   )
 }
 

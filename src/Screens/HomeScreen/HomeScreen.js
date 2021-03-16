@@ -2,11 +2,12 @@ import React from 'react'
 import ImageCarousel from '../../components/Carousel/ImageCarousel'
 import InfoOne from '../../images/aventador-s.jpg'
 import InfoTwo from '../../images/perfomante.jpg'
+import InfoThree from '../../images/aventador-svj.jpg'
 import '../HomeScreen/HomeScreen.css'
 
 function HomeScreen() {
   return (
-    <>
+    <div>
       <ImageCarousel/>
       <div className="container">
         <div className="info-one">
@@ -34,8 +35,19 @@ function HomeScreen() {
             </p>
           </div>
         </div>
+        <div className="info-three">
+          <img className="image-info-three" src={InfoThree} alt="Lamborghini Aventador SVJ"/>
+          <div className="text-info-three">
+            <p>
+              Lamborghini created the <b>Aventador SVJ</b> to embrace challenges head-on,
+              combining cutting-edge technology with extraordinary design, while always refusing to compromise.
+              In a future driven by technology, it’s easy to lose the genuine thrill of driving. But in the future shaped by Lamborghini,
+              this won’t be left behind, because there will always be a driver behind the wheel. 
+            </p>
+          </div>
+        </div>
       </div>
-    </>
+    </div>
   )
 }
 
