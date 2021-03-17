@@ -2,80 +2,26 @@ body{
   background-color: #EEEEEE;
 }
 
-p{
-    color: #6b6b6b;
-}
-
 .container{
     display: flex;
     position: relative;
-    top: 15vh;
+    top: 5vh;
     justify-content: center;
     align-self: center;
 }
 
-.info-one{
-    position: absolute;
-    top: 1vh;
+#history-container{
+    width: 80vw;
 }
 
-.image-info-one{
-    width: 50vw;
-    box-shadow: 0 4px 6px 0 rgba(0,0,0,.3);
-}
-
-.text-info-one{
+#history-logo{
     position: relative;
-    bottom: 25vh;
-    right: 9vw;
-    z-index: 1;
-    width: 30vw;
-    padding: 10px 10px 3px 10px;
-    background: rgba(255,255,255, 0.8);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    border-radius: 2px;
+    width: 50%;
+    left: 13.5vw;
 }
 
-.info-two{
-    position: absolute;
-    top: 80vh;
-}
-
-.image-info-two{
-    width: 50vw;
-    box-shadow: 0 4px 6px 0 rgba(0,0,0,.3);
-}
-
-.text-info-two{
+.history-text{
     position: relative;
-    bottom: 55vh;
-    left: 30vw;
-    z-index: 1;
-    width: 30vw;
-    padding: 10px 10px 3px 10px;
-    background: rgba(255,255,255, 0.8);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    border-radius: 2px;
-}
-
-.info-three{
-    position: absolute;
-    top: 160vh;
-}
-
-.image-info-three{
-    width: 50vw;
-    box-shadow: 0 4px 6px 0 rgba(0,0,0,.3);
-}
-
-.text-info-three{
-    position: relative;
-    bottom: 40vh;
-    right: 12vw;
-    z-index: 1;
-    width: 30vw;
-    padding: 10px 10px 3px 10px;
-    background: rgba(255,255,255, 0.8);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    border-radius: 2px;
+    bottom: 9vh;
+    color: #6b6b6b;
 }

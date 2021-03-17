@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Dashboard/>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 }
