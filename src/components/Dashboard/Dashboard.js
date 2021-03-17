@@ -16,8 +16,8 @@ function Dashboard() {
         <Navbar/>
           <Switch>
             <Route path="/" exact component={HomeScreen}/>
-            <Route path="/news" component={NewsScreen}/>
             <Route path="/about" component={AboutScreen}/>
+            <Route path="/news" component={NewsScreen}/>
             <Route path="/contact" component={ContactScreen}/>
           </Switch>
       </Router>

@@ -5,7 +5,7 @@ body{
 .container{
     display: flex;
     position: relative;
-    top: 5vh;
+    top: 3vh;
     justify-content: center;
     align-self: center;
 }
@@ -20,8 +20,22 @@ body{
     left: 13.5vw;
 }
 
-.history-text{
+#container-text{
     position: relative;
-    bottom: 9vh;
+    right: 2vw;
+    bottom: 35vh;
+    width: 30vw;
+    border-radius: 2px;
+}
+
+.history-text{
     color: #6b6b6b;
+    padding:1vw;
+}
+
+#founder{
+    position: relative;
+    left: 28vw;
+    width: 60%;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
 }
