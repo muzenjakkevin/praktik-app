@@ -4,38 +4,67 @@ body{
 
 .container{
     display: flex;
+    flex-direction: column;
     position: relative;
-    top: 3vh;
     justify-content: center;
-    align-self: center;
+    align-items: center;
+    top: 1vh;
 }
 
+/**Styling below for history*/
+
 #history-container{
-    width: 80vw;
+    width: 100%;
 }
 
 #history-logo{
     position: relative;
     width: 50%;
-    left: 13.5vw;
+    left: 14vw;
 }
 
 #container-text{
     position: relative;
-    right: 2vw;
-    bottom: 35vh;
+    right: 1vw;
+    bottom: 38vh;
     width: 30vw;
-    border-radius: 2px;
+}
+
+.history-title{
+    color: #6b6b6b;
+    padding-left:1vw;
 }
 
 .history-text{
     color: #6b6b6b;
-    padding:1vw;
+    padding: 1vw;
 }
 
 #founder{
     position: relative;
-    left: 28vw;
+    left: 30vw;
     width: 60%;
     box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
 }
+
+/**Styling below for what the company does*/
+
+#information-container{
+    position: relative;
+    bottom: 10vh;
+    width: 100%;
+}
+
+#information-image{
+    position: relative;
+    width: 55%;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
+}
+
+#what-we-do{
+    position: relative;
+    left: 33vw;
+    width: 30vw;
+    bottom: 28vh;
+}
+

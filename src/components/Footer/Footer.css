@@ -6,3 +6,15 @@
     z-index: 100;
     background: #3b4250;
 }
+
+ul{
+    font-weight: lighter;
+    font-size: 18px;
+    color: white;
+    padding: 7vh 0 0 5vw;
+    list-style: none;
+}
+
+li{
+    padding-bottom: 5px;
+}

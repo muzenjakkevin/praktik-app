@@ -4,7 +4,10 @@ import './Footer.css'
 function Footer() {
   return (
     <div className="footer">
-      Footer works
+      <ul>
+        <li>Phone: 0709240227</li>
+        <li>E-Mail: muzenjak57@gmail.com</li>
+      </ul>
     </div>
   )
 }
