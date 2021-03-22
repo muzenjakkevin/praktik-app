@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '../Navbar/Navbar';
 
 import HomeScreen from '../../Screens/HomeScreen/HomeScreen';
-import AboutScreen from '../../Screens/AboutScreen';
+import AboutScreen from '../../Screens/AboutScreen/AboutScreen';
 import NewsScreen from '../../Screens/NewsScreen';
 import ContactScreen from '../../Screens/ContactScreen';
 

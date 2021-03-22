@@ -1,0 +1,39 @@
+#about-image{
+    width: 100%;
+}
+
+/** Style below is for slogan container */
+
+.text-container{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    z-index: 100;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.3)
+}
+
+#slogan{
+    color: #6b6b6b;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+/** Style below is for what we do and history */
+
+.what-and-history-container{
+    padding: 20vh 0 20vh 10vw;
+}
+
+.what-we-do{
+    color: #6b6b6b;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.history{
+    padding-top: 10px;
+    color: #6b6b6b;
+    font-weight: lighter;
+}
