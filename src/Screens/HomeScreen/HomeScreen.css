@@ -26,18 +26,20 @@ body{
 #container-text{
     position: relative;
     right: 1vw;
-    bottom: 38vh;
+    bottom: 34vh;
     width: 30vw;
 }
 
 .history-title{
     color: #6b6b6b;
     padding-left:1vw;
+    font-weight: lighter;
 }
 
 .history-text{
     color: #6b6b6b;
     padding: 1vw;
+    font-weight: lighter;
 }
 
 #founder{
@@ -66,5 +68,6 @@ body{
     left: 30vw;
     width: 30vw;
     bottom: 24vh;
+    font-weight: lighter;
 }
 
