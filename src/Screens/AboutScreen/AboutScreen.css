@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: 20vh;
     z-index: 100;
     box-shadow: 0 4px 6px 0 rgba(0,0,0,.3)
@@ -36,4 +37,13 @@
     padding-top: 10px;
     color: #6b6b6b;
     font-weight: lighter;
+}
+
+#founder-image{
+    position: relative;
+    width: 35%;
+    top: 18vh;
+    float: right;
+    margin-right: 3vw;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
 }
