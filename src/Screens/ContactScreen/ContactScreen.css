@@ -1,0 +1,21 @@
+.container-contact{
+    display: grid;
+    grid-template-columns: 20% 20%;
+    grid-template-rows: 33% 33% 33%;
+    justify-content: center;
+    gap: 10px 10px;
+    margin: 20vh 0 20vh 0;
+}
+
+.corporates-container{
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.3);
+    background: white;
+}
+
+.corporates{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #6b6b6b;
+    list-style: none;
+    margin:8px 0 0 8px;
+}
