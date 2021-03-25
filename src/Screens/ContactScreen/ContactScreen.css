@@ -1,10 +1,10 @@
 .container-contact{
     display: grid;
-    grid-template-columns: 20% 20%;
+    grid-template-columns: 25% 25%;
     grid-template-rows: 33% 33% 33%;
     justify-content: center;
-    gap: 10px 10px;
-    margin: 20vh 0 20vh 0;
+    gap: 30px 30px;
+    margin: 20vh 0 30vh 0;
 }
 
 .corporates-container{
@@ -14,8 +14,15 @@
 
 .corporates{
     font-size: 18px;
-    font-weight: lighter;
-    color: #6b6b6b;
+    font-weight:280;
+    color: #000000;
     list-style: none;
-    margin:8px 0 0 8px;
+    margin: 45px 0 0 25px;
+}
+
+.contact-image{
+    width: 27%;
+    border-radius: 50%;
+    float: right;
+    margin: 20px 20px 0 0;
 }

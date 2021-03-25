@@ -3,6 +3,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import FirstPageImage from '../../images/aventador-s.jpg';
 import SecondPageImage from '../../images/perfomante.jpg';
 import ThirdPageImage from '../../images/aventador-svj.jpg';
+import ForthPageImage from '../../images/lamborghini-urus.jpg';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ImageCarousel() {
@@ -25,6 +27,10 @@ function ImageCarousel() {
         </Carousel.Item>
         <Carousel.Item>
           <img className='d-block w-100' src={ThirdPageImage} alt='Third Slide'/>
+          <Carousel.Caption>Lamborghini Aventador SVJ</Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className='d-block w-100' src={ForthPageImage} alt='Third Slide'/>
           <Carousel.Caption>Lamborghini Aventador SVJ</Carousel.Caption>
         </Carousel.Item>
       </Carousel>
