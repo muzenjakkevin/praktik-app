@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar';
 
 import HomeScreen from '../../Screens/HomeScreen/HomeScreen';
 import AboutScreen from '../../Screens/AboutScreen/AboutScreen';
-import NewsScreen from '../../Screens/NewsScreen';
+import NewsScreen from '../../Screens/NewsScreen/NewsScreen';
 import ContactScreen from '../../Screens/ContactScreen/ContactScreen';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';

@@ -1,5 +1,4 @@
 import React from 'react'
-import WrappedMap from '../Map/Map'
 import logotype from '../../images/logotype.png'
 import './Footer.css'
 

@@ -31,7 +31,7 @@ function ImageCarousel() {
         </Carousel.Item>
         <Carousel.Item>
           <img className='d-block w-100' src={ForthPageImage} alt='Third Slide'/>
-          <Carousel.Caption>Lamborghini Aventador SVJ</Carousel.Caption>
+          <Carousel.Caption>Lamborghini Urus</Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </>
