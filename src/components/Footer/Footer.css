@@ -8,6 +8,8 @@
 }
 
 .footer-ul{
+    position: relative;
+    top: 7vh;
     font-weight: lighter;
     font-size: 18px;
     color: white;
@@ -19,18 +21,10 @@
     padding-bottom: 5px;
 }
 
-.map-container{
-    position: relative;
-    left: 25vw;
-    bottom: 12.5vh;
-    width: 20vw;
-    height: 30vh;
-}
-
 #footer-logo{
     position: relative;
     float: right;
-    bottom: 41vh;
+    bottom: 5vh;
     margin-right: 3vw;
     width: 15%;
 }

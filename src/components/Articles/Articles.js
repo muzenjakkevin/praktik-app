@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import ArticleImage from '../../images/Drömbil.jpg'
 import './Articles.css'
 
 function Articles() {
@@ -30,7 +31,7 @@ function Articles() {
           <div className="article-container">
             {items.map((item, index) => (
               <div className="article" key={index}>
-                <h3>{item.articles.image}</h3>
+                <img className="article-image" src={ArticleImage} alt=""/>
                 <ul className="aticle-items">
                   <h5>{item.articles.title}</h5>
                   <li>{item.articles.text}</li>
@@ -38,6 +39,7 @@ function Articles() {
               </div>
             ))}
           </div>
+        
         : 
         <div className="no-news-container">
           <p id="no-news-text">There are currently no news available</p>
