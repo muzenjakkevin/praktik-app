@@ -42,7 +42,7 @@ function Articles() {
         
         : 
         <div className="no-news-container">
-          <p id="no-news-text">There are currently no news available</p>
+          <p id="no-news-text">There was an error trying to fetch the news</p>
         </div>
         }
       </div>

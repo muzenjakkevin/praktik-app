@@ -26,7 +26,7 @@ body{
 #container-text{
     position: relative;
     right: 1vw;
-    bottom: 34vh;
+    bottom: 36vh;
     width: 30vw;
 }
 
@@ -40,12 +40,14 @@ body{
     color: #6b6b6b;
     padding: 1vw;
     font-weight: 280;
+    line-height: 2em;
 }
 
 #founder{
     position: relative;
     left: 30vw;
     width: 60%;
+    top: 5vh;
     box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
 }
 
@@ -69,5 +71,6 @@ body{
     width: 30vw;
     bottom: 24vh;
     font-weight: 280;
+    line-height: 2em;
 }
 

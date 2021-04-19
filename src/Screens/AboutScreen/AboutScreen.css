@@ -24,25 +24,28 @@
 /** Style below is for what we do and history */
 
 .what-and-history-container{
-    padding: 20vh 0 20vh 10vw;
+    width: 70%;
+    padding: 20vh 10vw 20vh 10vw;
 }
 
 .what-we-do{
     color: #6b6b6b;
     font-weight: 280;
     padding-top: 10px;
+    line-height: 2em;
 }
 
 .history{
     padding-top: 10px;
     color: #6b6b6b;
     font-weight: 280;
+    line-height: 2em;
 }
 
 #founder-image{
     position: relative;
     width: 35%;
-    top: 18vh;
+    top: 20vh;
     float: right;
     margin-right: 3vw;
     box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
