@@ -25,12 +25,12 @@ function AboutScreen() {
         <p className="history">
           After World War II, Lamborghini founded a business making tractors from reconfigured surplus military machines, near Bologna, Italy.
           <br/>
+          <br/>
           He later expanded into other ventures, including manufacturing air-conditioning and heating systems, and grew rich. <br/>
           Lamborghini’s success enabled him to purchase a variety of luxury sports cars, including a Ferrari, considered one of the top cars of the time.<br/>
-          After experiencing mechanical difficulties with his Ferrari, Lamborghini decided to start his own rival sports car company,<br/>
+          After experiencing mechanical difficulties with his Ferrari, Lamborghini decided to start his own rival sports car company,
           even hiring a former top Ferrari engineer.
           Automobili Lamborghini was officially established in 1963 in Sant’Agata Bolognese, Italy,
-          <br/> 
           and the same year debuted its first car,
           the Lamborghini 350 GTV, a two-seater coupe with a V12 engine.
         </p>

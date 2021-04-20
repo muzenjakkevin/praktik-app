@@ -50,3 +50,35 @@
     margin-right: 3vw;
     box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
 }
+
+/** Styling below is for screens smaller than 1400px */
+
+@media only screen and (max-width: 1400px) {
+    #founder-image{
+        position: relative;
+        top: 10vh;
+        margin: 0 25vw 0 25vw;
+        width: 50%;
+        box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
+    }
+    
+    .what-and-history-container{
+        margin: 0;
+        width: 100%;
+        padding: 55vh 20vw 20vw 20vw;
+    }
+    
+    .what-we-do{
+        color: #6b6b6b;
+        font-weight: 280;
+        padding-top: 10px;
+        line-height: 2em;
+    }
+    
+    .history{
+        padding-top: 10px;
+        color: #6b6b6b;
+        font-weight: 280;
+        line-height: 2em;
+    }
+  }

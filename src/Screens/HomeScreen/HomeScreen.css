@@ -69,6 +69,8 @@ body{
 /** Styling below is for screens smaller than 1400px */
 
 @media only screen and (max-width: 1400px) {
+    /** Styling below is for history text */
+
     #history-container{
         width: 100%;
     }
@@ -81,8 +83,8 @@ body{
 
     #container-text{
         position: relative;
-        right: 10vw;
-        bottom: 32vh;
+        right: 5vw;
+        bottom: 34vh;
         width: 40vw;
     }
 
@@ -101,10 +103,33 @@ body{
     
     #founder{
         position: relative;
-        left: 34vw;
+        left: 37vw;
         width: 60%;
-        top: 3vh;
+        top: 4vh;
+        box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
+    }
+
+    /** Styling below is for what we do */
+    
+    #information-container{
+        position: relative;
+        bottom: 10vh;
+        width: 100%;
+    }
+    
+    #information-image{
+        position: relative;
+        width: 70%;
+        right: 5vw;
         box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
     }
     
+    #what-we-do{
+        position: relative;
+        width: 30vw;
+        left: 53vw;
+        bottom: 29vh;
+        font-weight: 280;
+        line-height: 2em;
+    }
   }
