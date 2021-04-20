@@ -46,49 +46,13 @@
     transition: all 0.1s ease-out;
 }
 
-/* @media screen and (max-width: 960px) {
-    .nav{
-        position: absolute;
-        width: 100%;
+/** Styling below is for screens smaller than 1400px */
+
+@media only screen and (max-width: 1400px) {
+    .logo {
+        position: relative;
+        top: 0.1vh;
+        width: 12%;
+        margin-right: 10vw;
     }
-    .nav-menu{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 1080px;
-        position: absolute;
-        top: 80px;
-        right: -100%;
-        opacity: 1;
-        transition: all 0.1s;
-    }
-    .nav-menu.active {
-        background: #7B7B7B;
-        left: 0;
-        opacity: 1;
-        transition: all 0.1s;
-        z-index: 1;
-    }
-    .nav-links{
-        text-align: center;
-        width: 100%;
-        display: table;
-    }
-    .nav-links:hover{
-        background-color: #888888;
-        border-radius: 0;
-    }
-    .menu-icon{
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
-        cursor: pointer;
-    }
-    .fa-times{
-        color: white;
-        font-size: 2rem;
-    }
-} */
+  }

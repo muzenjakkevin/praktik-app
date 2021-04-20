@@ -2,32 +2,23 @@ body{
   background-color: #EEEEEE;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    top: 1vh;
-}
-
 /**Styling below for history*/
 
 #history-container{
     width: 100%;
 }
 
-#history-logo{
+#homescreen-logo{
     position: relative;
     width: 50%;
-    left: 14vw;
+    left: 12.3vw;
 }
 
 #container-text{
     position: relative;
-    right: 1vw;
-    bottom: 36vh;
-    width: 30vw;
+    right: 14vw;
+    bottom: 32vh;
+    width: 40vw;
 }
 
 .history-title{
@@ -45,13 +36,13 @@ body{
 
 #founder{
     position: relative;
-    left: 30vw;
-    width: 60%;
+    left: 28vw;
+    width: 70%;
     top: 5vh;
     box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
 }
 
-/**Styling below for what the company does*/
+/** Styling below is for what the company does */
 
 #information-container{
     position: relative;
@@ -61,16 +52,59 @@ body{
 
 #information-image{
     position: relative;
-    width: 55%;
+    width: 70%;
+    right: 13vw;
     box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
 }
 
 #what-we-do{
     position: relative;
-    left: 30vw;
     width: 30vw;
-    bottom: 24vh;
+    left: 27.5vw;
+    bottom: 28vh;
     font-weight: 280;
     line-height: 2em;
 }
 
+/** Styling below is for screens smaller than 1400px */
+
+@media only screen and (max-width: 1400px) {
+    #history-container{
+        width: 100%;
+    }
+
+    #homescreen-logo{
+        position: relative;
+        width: 50%;
+        left: 20vw;
+    }
+
+    #container-text{
+        position: relative;
+        right: 10vw;
+        bottom: 32vh;
+        width: 40vw;
+    }
+
+    .history-title{
+        color: #6b6b6b;
+        padding-left:1vw;
+        font-weight: 280;
+    }
+    
+    .history-text{
+        color: #6b6b6b;
+        padding: 1vw;
+        font-weight: 280;
+        line-height: 2em;
+    }
+    
+    #founder{
+        position: relative;
+        left: 34vw;
+        width: 60%;
+        top: 3vh;
+        box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
+    }
+    
+  }

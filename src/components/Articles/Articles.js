@@ -41,8 +41,8 @@ function Articles() {
           </div>
         
         : 
-        <div className="no-news-container">
-          <p id="no-news-text">There was an error trying to fetch the news</p>
+        <div className="error-container">
+          <h4 id="error-text">There was an error trying to fetch the news</h4>
         </div>
         }
       </div>

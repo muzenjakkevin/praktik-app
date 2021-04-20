@@ -12,7 +12,7 @@ function HomeScreen() {
       <ImageCarousel/>
       <div className="container">
         <div id="history-container">
-          <img id="history-logo" src={TextLogo} alt="lamborghini"/>
+          <img id="homescreen-logo" src={TextLogo} alt="lamborghini"/>
           <img id="founder" src={Founder} alt="Ferruccio Lamborghini"/>
           <div id="container-text">
             <h3 className="history-title">History</h3>
