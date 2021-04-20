@@ -1,135 +1,203 @@
-body{
-  background-color: #EEEEEE;
+body {
+  background-color: #eeeeee;
 }
 
 /**Styling below for history*/
 
-#history-container{
-    width: 100%;
+#history-container {
+  width: 100%;
 }
 
-#homescreen-logo{
-    position: relative;
-    width: 50%;
-    left: 12.3vw;
+#homescreen-logo {
+  position: relative;
+  width: 50%;
+  left: 12.3vw;
 }
 
-#container-text{
-    position: relative;
-    right: 14vw;
-    bottom: 32vh;
-    width: 40vw;
+#container-text {
+  position: relative;
+  right: 14vw;
+  bottom: 32vh;
+  width: 40vw;
 }
 
-.history-title{
-    color: #6b6b6b;
-    padding-left:1vw;
-    font-weight: 280;
+.history-title {
+  color: #6b6b6b;
+  padding-left: 1vw;
+  font-weight: 280;
 }
 
-.history-text{
-    color: #6b6b6b;
-    padding: 1vw;
-    font-weight: 280;
-    line-height: 2em;
+.history-text {
+  color: #6b6b6b;
+  padding: 1vw;
+  font-weight: 280;
+  line-height: 2em;
 }
 
-#founder{
-    position: relative;
-    left: 28vw;
-    width: 70%;
-    top: 5vh;
-    box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
+#founder {
+  position: relative;
+  left: 28vw;
+  width: 70%;
+  top: 5vh;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
 }
 
 /** Styling below is for what the company does */
 
-#information-container{
+#information-container {
+  position: relative;
+  bottom: 10vh;
+  width: 100%;
+}
+
+#information-image {
+  position: relative;
+  width: 70%;
+  right: 13vw;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
+}
+
+#what-we-do {
+  position: relative;
+  width: 30vw;
+  left: 27.5vw;
+  bottom: 28vh;
+  font-weight: 280;
+  line-height: 2em;
+}
+
+/** For MacBook 13" */
+
+@media only screen and (max-width: 2560px) {
+  /** Styling below is for history text */
+
+  #history-container {
+    width: 100%;
+  }
+
+  #homescreen-logo {
+    position: relative;
+    width: 50%;
+    left: 20vw;
+  }
+
+  #container-text {
+    position: relative;
+    right: 5vw;
+    bottom: 40vh;
+    width: 40vw;
+  }
+
+  .history-title {
+    color: #6b6b6b;
+    padding-left: 1vw;
+    font-weight: 280;
+  }
+
+  .history-text {
+    color: #6b6b6b;
+    padding: 1vw;
+    font-weight: 280;
+    line-height: 2em;
+  }
+
+  #founder {
+    position: relative;
+    left: 37vw;
+    width: 60%;
+    top: 5vh;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  /** Styling below is for what we do */
+
+  #information-container {
     position: relative;
     bottom: 10vh;
     width: 100%;
-}
+  }
 
-#information-image{
+  #information-image {
     position: relative;
     width: 70%;
-    right: 13vw;
-    box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
-}
+    right: 5vw;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
+  }
 
-#what-we-do{
+  #what-we-do {
     position: relative;
     width: 30vw;
-    left: 27.5vw;
-    bottom: 28vh;
+    left: 53vw;
+    bottom: 38vh;
     font-weight: 280;
     line-height: 2em;
+  }
 }
 
 /** Styling below is for screens smaller than 1400px */
 
 @media only screen and (max-width: 1400px) {
-    /** Styling below is for history text */
+  /** Styling below is for history text */
 
-    #history-container{
-        width: 100%;
-    }
-
-    #homescreen-logo{
-        position: relative;
-        width: 50%;
-        left: 20vw;
-    }
-
-    #container-text{
-        position: relative;
-        right: 5vw;
-        bottom: 34vh;
-        width: 40vw;
-    }
-
-    .history-title{
-        color: #6b6b6b;
-        padding-left:1vw;
-        font-weight: 280;
-    }
-    
-    .history-text{
-        color: #6b6b6b;
-        padding: 1vw;
-        font-weight: 280;
-        line-height: 2em;
-    }
-    
-    #founder{
-        position: relative;
-        left: 37vw;
-        width: 60%;
-        top: 4vh;
-        box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
-    }
-
-    /** Styling below is for what we do */
-    
-    #information-container{
-        position: relative;
-        bottom: 10vh;
-        width: 100%;
-    }
-    
-    #information-image{
-        position: relative;
-        width: 70%;
-        right: 5vw;
-        box-shadow: 0 2px 7px 0 rgba(0,0,0,.3)
-    }
-    
-    #what-we-do{
-        position: relative;
-        width: 30vw;
-        left: 53vw;
-        bottom: 29vh;
-        font-weight: 280;
-        line-height: 2em;
-    }
+  #history-container {
+    width: 100%;
   }
+
+  #homescreen-logo {
+    position: relative;
+    width: 50%;
+    left: 20vw;
+  }
+
+  #container-text {
+    position: relative;
+    right: 5vw;
+    bottom: 34vh;
+    width: 40vw;
+  }
+
+  .history-title {
+    color: #6b6b6b;
+    padding-left: 1vw;
+    font-weight: 280;
+  }
+
+  .history-text {
+    color: #6b6b6b;
+    padding: 1vw;
+    font-weight: 280;
+    line-height: 2em;
+  }
+
+  #founder {
+    position: relative;
+    left: 37vw;
+    width: 60%;
+    top: 4vh;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  /** Styling below is for what we do */
+
+  #information-container {
+    position: relative;
+    bottom: 10vh;
+    width: 100%;
+  }
+
+  #information-image {
+    position: relative;
+    width: 70%;
+    right: 5vw;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  #what-we-do {
+    position: relative;
+    width: 30vw;
+    left: 53vw;
+    bottom: 29vh;
+    font-weight: 280;
+    line-height: 2em;
+  }
+}

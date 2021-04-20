@@ -1,58 +1,58 @@
 .nav {
-    background-color: #3b4250;
-    position: sticky;
-    width: 100%;
-    height: 13.5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    box-shadow: 0 4px 6px 0 rgba(0,0,0,.3)
+  background-color: #3b4250;
+  position: sticky;
+  width: 100%;
+  height: 13.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
 }
 
 .logo {
-    position: relative;
-    top: 0.1vh;
-    width: 8%;
-    margin-right: 10vw;
+  position: relative;
+  top: 0.1vh;
+  width: 8%;
+  margin-right: 10vw;
 }
 
 .nav-menu {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 70vw;
-    justify-content: end;
-    left: 2vw;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  left: 2vw;
 }
 
 .nav-links {
-    position: relative;
-    top: 0.6vh;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: lighter;
-    color: white;
-    padding: 0.5rem 1rem;
+  position: relative;
+  top: 0.6vh;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: lighter;
+  color: white;
+  padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-    color: white;
-    opacity: 49%;
-    border-radius: 4px;
-    transition: all 0.1s ease-out;
+  color: white;
+  opacity: 49%;
+  border-radius: 4px;
+  transition: all 0.1s ease-out;
 }
 
 /** Styling below is for screens smaller than 1400px */
 
 @media only screen and (max-width: 1400px) {
-    .logo {
-        position: relative;
-        top: 0.1vh;
-        width: 12%;
-        margin-right: 10vw;
-    }
+  .logo {
+    position: relative;
+    top: 0.1vh;
+    width: 12%;
+    margin-right: 10vw;
   }
+}

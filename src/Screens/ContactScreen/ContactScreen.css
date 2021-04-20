@@ -1,59 +1,91 @@
-.container-contact{
+.container-contact {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 33% 33% 33%;
+  justify-content: center;
+  gap: 30px 30px;
+  margin: 20vh 0 30vh 0;
+}
+
+.corporates-container {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+  background: white;
+}
+
+.corporates {
+  font-size: 18px;
+  font-weight: 280;
+  color: #000000;
+  list-style: none;
+  margin: 55px 0 0 25px;
+}
+
+.contact-image {
+  width: 27%;
+  border-radius: 50%;
+  float: right;
+  margin: 20px 20px 0 0;
+}
+
+/** For MacBook 13"*/
+@media only screen and (max-width: 2560px) {
+  .container-contact {
     display: grid;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: 40% 40%;
     grid-template-rows: 33% 33% 33%;
     justify-content: center;
     gap: 30px 30px;
     margin: 20vh 0 30vh 0;
-}
+  }
 
-.corporates-container{
-    box-shadow: 0 4px 6px 0 rgba(0,0,0,.3);
+  .corporates-container {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
     background: white;
-}
+  }
 
-.corporates{
+  .corporates {
     font-size: 18px;
-    font-weight:280;
+    font-weight: 280;
     color: #000000;
     list-style: none;
-    margin: 55px 0 0 25px;
-}
+    margin: 40px 0 0 25px;
+  }
 
-.contact-image{
+  .contact-image {
     width: 27%;
     border-radius: 50%;
     float: right;
     margin: 20px 20px 0 0;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
-    .container-contact{
-        display: grid;
-        grid-template-columns: 40% 40%;
-        grid-template-rows: 33% 33% 33%;
-        justify-content: center;
-        gap: 30px 30px;
-        margin: 20vh 0 30vh 0;
-    }
-
-    .corporates-container{
-        box-shadow: 0 4px 6px 0 rgba(0,0,0,.3);
-        background: white;
-    }
-    
-    .corporates{
-        font-size: 18px;
-        font-weight:280;
-        color: #000000;
-        list-style: none;
-        margin: 40px 0 0 25px;
-    }
-    
-    .contact-image{
-        width: 27%;
-        border-radius: 50%;
-        float: right;
-        margin: 20px 20px 0 0;
-    }
+  .container-contact {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 33% 33% 33%;
+    justify-content: center;
+    gap: 30px 30px;
+    margin: 20vh 0 30vh 0;
   }
+
+  .corporates-container {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+    background: white;
+  }
+
+  .corporates {
+    font-size: 18px;
+    font-weight: 280;
+    color: #000000;
+    list-style: none;
+    margin: 40px 0 0 25px;
+  }
+
+  .contact-image {
+    width: 27%;
+    border-radius: 50%;
+    float: right;
+    margin: 20px 20px 0 0;
+  }
+}
