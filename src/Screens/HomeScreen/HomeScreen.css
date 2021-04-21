@@ -17,9 +17,9 @@ body {
 
 #container-text {
   position: relative;
-  right: 14vw;
-  bottom: 32vh;
-  width: 40vw;
+  right: 18em;
+  bottom: 19em;
+  width: 51.5em;
 }
 
 .history-title {
@@ -37,9 +37,9 @@ body {
 
 #founder {
   position: relative;
-  left: 28vw;
+  left: 38em;
   width: 70%;
-  top: 5vh;
+  top: 5em;
   box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -47,29 +47,29 @@ body {
 
 #information-container {
   position: relative;
-  bottom: 10vh;
+  bottom: 5em;
   width: 100%;
 }
 
 #information-image {
   position: relative;
   width: 70%;
-  right: 13vw;
+  right: 17em;
   box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
 }
 
 #what-we-do {
   position: relative;
-  width: 30vw;
-  left: 27.5vw;
-  bottom: 28vh;
+  width: 40em;
+  left: 37em;
+  bottom: 19em;
   font-weight: 280;
   line-height: 2em;
 }
 
 /** For MacBook 13" */
 
-@media print and (min-resolution: 227dpi) { 
+@media print and (max-resolution: 227dpi) { 
   #history-container {
     width: 100%;
   }
@@ -129,72 +129,67 @@ body {
     font-weight: 280;
     line-height: 2em;
   }
-}
+} 
 
 /** Styling below is for screens smaller than 1400px */
 
 @media only screen and (max-width: 1400px) {
-  /** Styling below is for history text */
-
   #history-container {
     width: 100%;
   }
 
   #homescreen-logo {
-    position: relative;
+    margin: 0 25% 0 25%;
     width: 50%;
-    left: 20vw;
   }
 
   #container-text {
     position: relative;
-    right: 5vw;
-    bottom: 34vh;
-    width: 40vw;
+    right: 4em;
+    bottom: 23em;
+    width: 50%;
   }
 
   .history-title {
     color: #6b6b6b;
-    padding-left: 1vw;
+    padding-left: 0.45em;
     font-weight: 280;
   }
 
   .history-text {
     color: #6b6b6b;
-    padding: 1vw;
+    padding: 0.9em;
     font-weight: 280;
     line-height: 2em;
   }
 
   #founder {
     position: relative;
-    left: 37vw;
+    left: 32em;
     width: 60%;
     top: 4vh;
     box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
   }
 
-  /** Styling below is for what we do */
-
   #information-container {
     position: relative;
-    bottom: 10vh;
+    bottom: 10em;
     width: 100%;
   }
 
   #information-image {
     position: relative;
     width: 70%;
-    right: 5vw;
+    right: 4em;
     box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
   }
 
   #what-we-do {
     position: relative;
-    width: 30vw;
-    left: 53vw;
-    bottom: 29vh;
+    width: 40%;
+    left: 46em;
+    bottom: 19em;
     font-weight: 280;
     line-height: 2em;
   }
-}
+} 
