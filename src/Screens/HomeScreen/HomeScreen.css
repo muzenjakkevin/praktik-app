@@ -10,7 +10,8 @@ body {
 
 #homescreen-logo {
   /*position: relative;*/
-  margin-left: 12.5vw;
+  margin-left: 25%;
+  margin-right: 25%;
   width: 50%;
   left: 12.3vw;
 }
