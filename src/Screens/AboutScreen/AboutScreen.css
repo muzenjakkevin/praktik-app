@@ -53,7 +53,7 @@
 
 /** For MacBook 13" */
 
-@media only screen and (max-width: 2560px) {
+/* @media only screen and (max-width: 2560px) {
   #founder-image {
     position: relative;
     top: 15vh;
@@ -81,7 +81,7 @@
     font-weight: 280;
     line-height: 2em;
   }
-}
+} */
 
 /** Styling below is for screens smaller than 1400px */
 
