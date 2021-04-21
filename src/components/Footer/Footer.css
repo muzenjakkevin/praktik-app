@@ -40,4 +40,12 @@
         z-index: 100;
         background: #3b4250;
     }
+
+    #footer-logo{
+        position: relative;
+        float: right;
+        bottom: 4em;
+        margin-right: 3em;
+        width: 15%;
+    }
   }
