@@ -13,8 +13,8 @@ const MobileNavbarContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 40;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+  z-index: 70;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.3);
 `;
 
 const NavLinksContainer = styled.div`

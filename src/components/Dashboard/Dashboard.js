@@ -15,11 +15,11 @@ import { useMediaQuery } from 'react-responsive';
 import { DeviceSize } from '../Navbar/responsive';
 
 function Dashboard() {
-  const isMobile = useMediaQuery({ maxWidth: DeviceSize.tablet})
+  const isTablet = useMediaQuery({ maxWidth: DeviceSize.tablet})
   return (
     <>
       <Router>
-        {isMobile ? <MobileNavbar/> :
+        {isTablet ? <MobileNavbar/> :
         <Navbar/>}
           <Switch>
             <Route path="/" exact component={HomeScreen}/>

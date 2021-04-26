@@ -130,7 +130,9 @@ body {
   }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1199px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+/** Styling below is for screens between 768px and 1200px*/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   #history-container {
     width: 100%;
   }
@@ -142,7 +144,7 @@ body {
 
   #container-text {
     position: relative;
-    left: 1em;
+    left: 2em;
     bottom: 0.1em;
     width: 90%;
   }
@@ -185,9 +187,10 @@ body {
   #what-we-do {
     position: relative;
     width: 90%;
-    top: 5em;
-    margin-right: 25%;
-    padding-bottom: 15em;
+    left: 2em;
+    bottom: 1em;
+    padding-top: 5em;
+    padding-bottom: 10em;
     font-weight: 280;
     line-height: 2em;
   }
