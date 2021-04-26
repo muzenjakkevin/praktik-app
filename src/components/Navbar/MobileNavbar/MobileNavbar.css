@@ -1,0 +1,26 @@
+.mobile-nav-menu {
+  background-color:#3b4250;
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  top: 10em;
+  left: 0;
+  list-style: none;
+}
+
+.mobile-nav-links {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: lighter;
+  color: white;
+  padding: 5rem 7rem;
+}
+
+.mobile-nav-links:hover {
+  color: white;
+  transition: all 0.1s ease-out;
+}

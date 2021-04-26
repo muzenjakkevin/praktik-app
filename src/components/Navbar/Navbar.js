@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import logotype from '../../images/logotype.png';
 import Logo from './logo/Logo';
 import './Navbar.css';
 
@@ -26,7 +25,6 @@ const NavbarRightSection = styled.div`
 `;
 
 function Navbar() {
-
   return (
     <>
       <NavbarContainer>

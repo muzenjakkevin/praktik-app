@@ -8,7 +8,7 @@ const LogoWrapper = styled.div`
 `;
 
 const LogoImage = styled.div`
-  width: 10%;
+  width: 12%;
   margin-left: 4em;
   img{
       width: 100%;
