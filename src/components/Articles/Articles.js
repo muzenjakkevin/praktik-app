@@ -42,7 +42,7 @@ function Articles() {
         
         : 
         <div className="error-container">
-          <h4 id="error-text">Error fetching article</h4>
+          <h4 id="error-text">There was an error trying to fetch news</h4>
         </div>
         }
       </div>
