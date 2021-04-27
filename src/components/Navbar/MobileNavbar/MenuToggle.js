@@ -6,7 +6,17 @@ const Button = styled.div`
   z-index: 99;
   cursor: pointer;
   margin: 0 3.5em;
-  color: rgb(255, 255, 255);
+  svg {
+    width: 34px;
+    height: 34px
+  }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 3) { 
+    margin: 0.5em 1.5em 0 0;
+    svg {
+      width: 30px;
+      height: 30px
+    }
+  }
 `;
 
 const Path = (props) => (
@@ -23,7 +33,7 @@ const transition = { duration: 0.33 };
 export function MenuToggle({ toggle, isOpen }) {
   return (
     <Button onClick={toggle}>
-      <svg width="34" height="34" viewBox="0 0 23 23">
+      <svg viewBox="0 0 23 23">
         <Path
           animate={isOpen ? "open" : "closed"}
           initial={false}

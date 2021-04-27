@@ -24,3 +24,28 @@
   color: white;
   transition: all 0.1s ease-out;
 }
+
+/** Styling below is for screens between 375px and 768px */
+@media only screen and (min-device-width: 375px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 3) { 
+  .mobile-nav-menu {
+    background-color:#3b4250;
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    top: 7em;
+    left: 0;
+    list-style: none;
+  }
+
+  .mobile-nav-links {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: white;
+    padding: 2rem 4rem;
+  }
+}

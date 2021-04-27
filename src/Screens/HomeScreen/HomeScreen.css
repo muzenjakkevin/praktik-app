@@ -195,3 +195,70 @@ body {
     line-height: 2em;
   }
 }
+
+/** Styling below is for screens between 375px and 768px */
+@media only screen and (min-device-width: 375px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 3) { 
+  #history-container {
+    width: 100%;
+  }
+
+  #homescreen-logo {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  #container-text {
+    position: relative;
+    left: 0.1em;
+    bottom: 3em;
+    width: 100%;
+  }
+
+  .history-title {
+    color: #6b6b6b;
+    padding-left: 0.5em;
+    font-weight: 280;
+    font-size: 1.3rem;
+  }
+
+  .history-text {
+    color: #6b6b6b;
+    padding: 0.9em;
+    font-weight: 280;
+    font-size: 0.8rem;
+    line-height: 2em;
+  }
+
+  #founder {
+    position: relative;
+    left: 1em;
+    width: 90%;
+    top: 0.1em;
+    margin-bottom: 5em;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  #information-container {
+    position: relative;
+    top: 1em;
+    width: 100%;
+  }
+
+  #information-image {
+    position: relative;
+    width: 90%;
+    left: 1.2em;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  #what-we-do {
+    position: relative;
+    width: 100%;
+    left: 0.1em;
+    bottom: 3em;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    font-weight: 280;
+    line-height: 2em;
+  }
+}

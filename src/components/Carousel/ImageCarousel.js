@@ -19,19 +19,15 @@ function ImageCarousel() {
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img className='d-block w-100' src={FirstPageImage} alt='First Slide'/>
-          <Carousel.Caption>Lamborghini Aventador SV</Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className='d-block w-100' src={SecondPageImage} alt='Second Slide'/>
-          <Carousel.Caption>Lamborghini Huracan Perfomante</Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className='d-block w-100' src={ThirdPageImage} alt='Third Slide'/>
-          <Carousel.Caption>Lamborghini Aventador SVJ</Carousel.Caption>
+          <img className='d-block w-100' src={ThirdPageImage} alt='Third Slide'/>  
         </Carousel.Item>
         <Carousel.Item>
           <img className='d-block w-100' src={ForthPageImage} alt='Third Slide'/>
-          <Carousel.Caption>Lamborghini Urus</Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </>

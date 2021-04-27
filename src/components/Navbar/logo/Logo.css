@@ -1,0 +1,28 @@
+.nav-logo{
+  width: 12%;
+  margin: 0 2em;
+}
+
+/** Styling below is for screens smaller than 1400px */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    .nav-logo{
+        width: 14%;
+        margin: 0 2em;
+    }
+  }
+
+/** Styling below is for screens between 768px and 1200px*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    .nav-logo{
+        width: 22%;
+        margin: 0 2em;
+    }
+  }
+
+/** Styling below is for screens between 375px and 768px */
+@media only screen and (min-device-width: 375px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .nav-logo{
+        width: 30%;
+        margin: 0 0.7em;
+    }
+  }
