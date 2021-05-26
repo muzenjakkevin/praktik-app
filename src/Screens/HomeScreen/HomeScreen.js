@@ -1,5 +1,6 @@
 import React from 'react'
 import ImageCarousel from '../../components/Carousel/ImageCarousel'
+
 import TextLogo from '../../images/lamborghini-text-logo.png'
 import Founder from '../../images/lamborghini-founder.jpg'
 import aventador from '../../images/what-we-do.jpg'
@@ -10,6 +11,7 @@ function HomeScreen() {
   return (
     <div>
       <ImageCarousel/>
+      
       <div className="container">
         <div id="history-container">
           <img id="homescreen-logo" src={TextLogo} alt="lamborghini"/>
@@ -29,6 +31,7 @@ function HomeScreen() {
             </p>
           </div>
         </div>
+        
         <div id="information-container">
           <img id="information-image" src={aventador} alt="Lamborghini Aventador"/>
           <div id="what-we-do">
@@ -40,6 +43,7 @@ function HomeScreen() {
           </div>
         </div>
       </div>
+      
     </div>
   )
 }

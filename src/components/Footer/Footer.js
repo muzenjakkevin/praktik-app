@@ -11,6 +11,7 @@ function Footer() {
         <li className="footer-li">Based: Lamborghini Automobili S.P.A Gate 5</li>
       </ul>
       <img id="footer-logo" src={logotype} alt="Lamborghini Logo"/>
+      <p style={{fontSize: '12px', paddingTop: '10em', paddingLeft: '6em', color: 'white'}}>All media used on this website is used for educational purposes only</p>
     </div>
   )
 }

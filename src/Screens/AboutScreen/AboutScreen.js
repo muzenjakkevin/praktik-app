@@ -2,16 +2,19 @@ import React from 'react'
 
 import AboutImage from '../../images/what-we-do.jpg'
 import HistoryImage from '../../images/lamborghini-founder.jpg'
+import EmbedVideo from '../../components/Video/EmbedVideo'
 
 import './AboutScreen.css'
 
 function AboutScreen() {
   return (
     <div>
-      <img id="about-image" src={AboutImage} alt="Yellow Lamborghini Aventador S"/>
+      <EmbedVideo embedId="P9RgHiqD5ZQ"/>
+      {/* <img id="about-image" src={AboutImage} alt="Yellow Lamborghini Aventador S"/> */}
       <div className="text-container">
         <p id="slogan">"We are not supercars. We are Lamborghini"</p>
       </div>
+      
       <img id="founder-image" src={HistoryImage} alt="Ferruccio Lamborghini"/>
       <div className="what-and-history-container">
         <h4 className="what-we-do">What we do</h4>

@@ -19,6 +19,7 @@
   color: #6b6b6b;
   font-size: 1.5rem;
   font-weight: 280;
+  z-index: 99;
 }
 
 /** Style below is for what we do and history */
