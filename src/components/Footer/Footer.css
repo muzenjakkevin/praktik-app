@@ -21,6 +21,13 @@
     padding-bottom: 5px;
 }
 
+.disclaimer{
+  color: #fff;
+  font-size: 12px;
+  padding-top: 15em;
+  padding-left: 8em;
+}
+
 #footer-logo{
     position: relative;
     float: right;
@@ -39,6 +46,13 @@
         height: 22em;
         z-index: 100;
         background: #3b4250;
+    }
+
+    .disclaimer{
+      color: #fff;
+      font-size: 12px;
+      padding-top: 10em;
+      padding-left: 6em;
     }
 
     #footer-logo{
@@ -62,6 +76,13 @@
     background: #3b4250;
   }
 
+  .disclaimer{
+    color: #fff;
+    font-size: 12px;
+    padding-top: 8em;
+    padding-left: 3em;
+  }
+
   #footer-logo{
     position: relative;
     float: right;
@@ -82,6 +103,14 @@
     background: #3b4250;
   }
 
+  .disclaimer{
+    color: #fff;
+    font-size: 10px;
+    padding-top: 21em;
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
   #footer-logo{
     position: relative;
     right: 4.5em;
@@ -97,5 +126,6 @@
     color: white;
     padding: 0 0 0 2em;
     list-style: none;
-}
+  }
+
 }
