@@ -18,16 +18,16 @@ function ImageCarousel() {
     <>
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
-          <img className='d-block w-100' src={FirstPageImage} alt='First Slide'/>
+          <img className='d-block w-100' src={FirstPageImage} alt='White Lamborghini Aventador SV'/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className='d-block w-100' src={SecondPageImage} alt='Second Slide'/>
+          <img className='d-block w-100' src={SecondPageImage} alt='Black Lamborghini Huracan Performante'/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className='d-block w-100' src={ThirdPageImage} alt='Third Slide'/>  
+          <img className='d-block w-100' src={ThirdPageImage} alt='Red Lamborghini Aventador SVJ'/>  
         </Carousel.Item>
         <Carousel.Item>
-          <img className='d-block w-100' src={ForthPageImage} alt='Third Slide'/>
+          <img className='d-block w-100' src={ForthPageImage} alt='White Lamborghini Urus'/>
         </Carousel.Item>
       </Carousel>
     </>

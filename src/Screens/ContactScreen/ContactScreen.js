@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import { ReactTitle } from 'react-meta-tags';
 import ContactImage from '../../images/contact-test.jpg'
 import './ContactScreen.css'
 
@@ -34,9 +35,10 @@ function ContactScreen() {
   } else {
     return (
       <div className="container-contact">
+        <ReactTitle title="Lamborghini | Contact"/>
         {items.map(item => (
           <div className="corporates-container" key={item.id}>
-            <img className="contact-image" src={ContactImage} alt=''/>
+            <img className="contact-image" src={ContactImage} alt='Orange Lamborghini Huracan Evo'/>
             <ul className="corporates">
               <li>{item.name}</li>
               <li>{item.email}</li>

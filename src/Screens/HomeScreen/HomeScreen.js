@@ -4,18 +4,20 @@ import ImageCarousel from '../../components/Carousel/ImageCarousel'
 import TextLogo from '../../images/lamborghini-text-logo.png'
 import Founder from '../../images/lamborghini-founder.jpg'
 import aventador from '../../images/what-we-do.jpg'
+import { ReactTitle } from 'react-meta-tags'
 
 import '../HomeScreen/HomeScreen.css'
+
 
 function HomeScreen() {
   return (
     <div>
+      <ReactTitle title='Lamborghini | Home'/>
       <ImageCarousel/>
-      
       <div className="container">
         <div id="history-container">
-          <img id="homescreen-logo" src={TextLogo} alt="lamborghini"/>
-          <img id="founder" src={Founder} alt="Ferruccio Lamborghini"/>
+          <img id="homescreen-logo" src={TextLogo} alt="Lamborghini"/>
+          <img id="founder" src={Founder} alt="The Founder, Ferruccio Lamborghini"/>
           <div id="container-text">
             <h3 className="history-title">History</h3>
             <p className="history-text">
@@ -33,7 +35,7 @@ function HomeScreen() {
         </div>
         
         <div id="information-container">
-          <img id="information-image" src={aventador} alt="Lamborghini Aventador"/>
+          <img id="information-image" src={aventador} alt="Yellow Lamborghini Aventador"/>
           <div id="what-we-do">
             <h3 className="history-title">What we do</h3>
             <p className="history-text">
